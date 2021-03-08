@@ -1,0 +1,61 @@
+.social-message {
+    margin: 1rem 0;
+    background: rgb(190, 120, 120);
+    border-radius: 0.2rem;
+    position:relative;
+    border-style: solid;
+    padding: 1rem;
+    background: hsl(66, 90%, 92%);
+    color: rgb(87, 77, 77);
+  }
+  
+  .social-message:nth-child(even) {
+    margin: 2rem;
+  }
+  
+  .social-message:nth-child(odd) {
+    margin: 2rem;
+  }
+  
+  .social-message__name {
+    font-weight: bold;
+    font-size: 0.65rem;
+  }
+  
+  .social-message__date {
+    margin-left: 0.40rem;
+    font-size: 0.5rem;
+  }
+  .social-message__numLikes{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #000000;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+  .social-message__numThumbsUp{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #eb5e5e;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }
+  .social-message__numSparkles{
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #7ce4b0;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+  }

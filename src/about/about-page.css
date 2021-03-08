@@ -1,0 +1,8 @@
+.list{
+    list-style: none;
+    }
+    
+    .list li::before{
+       content: "*";
+        padding-right: 0.5rem;
+    }
